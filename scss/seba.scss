@@ -1,0 +1,28 @@
+/*IMPORT*/
+
+@import "estilos"; 
+
+/* VARIABLES al NAV*/
+
+$spanbackground-color: orange;
+$spannavbackground-color: blue;
+
+
+/* ANIDAMIENTO al NAV*/
+
+span{
+    background-color: $spanbackground-color;
+    margin: 5px;
+    padding: 10px 25px;
+    span:hover{
+        opacity: 0.5;
+        cursor: pointer;
+        nav{
+            padding: 10px;
+            background-color: $spannavbackground-color;
+         }
+     }
+ }
+ 
+
+ 

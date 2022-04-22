@@ -1,0 +1,34 @@
+/*IMPORT*/
+span {
+  background-color: red;
+  margin: 5px;
+  padding: 10px 25px;
+}
+
+span:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+nav {
+  padding: 10px;
+  background-color: black;
+}
+
+/* VARIABLES al NAV*/
+/* ANIDAMIENTO al NAV*/
+span {
+  background-color: orange;
+  margin: 5px;
+  padding: 10px 25px;
+}
+span span:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+span span:hover nav {
+  padding: 10px;
+  background-color: blue;
+}
+
+/*# sourceMappingURL=seba1.css.map */
